@@ -10,17 +10,19 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Frontend Mentor | social-media-dashboard-with-theme-switcher-master</title>
+    <title>
+      Frontend Mentor | social-media-dashboard-with-theme-switcher-master
+    </title>
   </head>
   <body>
-    <section>
+    <header>
       <div class="container">
         <div class="dashboard-header">
           <div class="title">
             <h1>Social Media Dashboard</h1>
             <p>Total Followers: 23,004</p>
           </div>
-          <hr/>
+          <hr />
           <div class="button">
             <span>Dark Mode</span>
             <div class="toggle">
@@ -28,7 +30,11 @@
             </div>
           </div>
         </div>
-        <div class="dashboard-body">
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="dashboard-body">
           <div class="box" style="--border-color: hsl(208, 92%, 53%)">
             <div class="box-top">
               <img src="images/icon-facebook.svg" alt="facebook" />
@@ -77,8 +83,8 @@
               <span style="color: hsl(356, 69%, 56%)">144 Today</span>
             </div>
           </div>
-        </div>
-        <div class="overviews">
+        </section>
+        <section class="overviews">
           <div class="overview-title">
             <h3>Overview - Today</h3>
           </div>
@@ -188,9 +194,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-    </section>
+    </main>
+    >
     <script src="js/main.js"></script>
   </body>
 </html>
