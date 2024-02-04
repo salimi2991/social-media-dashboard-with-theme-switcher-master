@@ -273,7 +273,7 @@ header::before {
   background-color: var(--clr-hover);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   section::before {
     height: 20%;
   }
